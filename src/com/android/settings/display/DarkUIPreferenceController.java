@@ -74,7 +74,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void updateState() {
         if (!isSubstratumOverlayInstalled(mContext) || isForceThemeAllowed()) {
             int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.SYSTEM_THEME_STYLE, 0);
+                    Settings.System.SYSTEM_THEME_STYLE, 4);
             int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
             mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
             mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
