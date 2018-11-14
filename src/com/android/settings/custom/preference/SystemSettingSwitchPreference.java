@@ -85,3 +85,4 @@ public class SystemSettingSwitchPreference extends SwitchPreference {
         }
     }
 }
+
