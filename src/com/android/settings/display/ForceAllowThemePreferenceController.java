@@ -21,7 +21,7 @@ import android.content.res.Resources;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
+import com.android.settings.custom.preference.SystemSettingSwitchPreference;
 import com.android.settings.display.AccentPickerPreferenceController;
 import com.android.settings.display.DarkUIPreferenceController;
 
