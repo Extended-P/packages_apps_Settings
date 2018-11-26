@@ -98,4 +98,10 @@
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Double Tap on an empty navbar space but not the home button to switch the screen off.</string>
 
+    <!-- Force use system themes even with subs overlays -->
+    <string name="force_allow_system_themes_title">Allow system themes and fonts alongside substratum</string>
+    <string name="force_allow_system_themes_summary">Allows you to use following themes and fonts options despite of substratum android overlays installed.</string>
+    <string name="force_theme_warning_title">Careful!</string>
+<string name="force_theme_warning_message">This block is placed to avoid people to report bugs related to themes to us or to themers when you start mixing subs stuff with our stuff. So, by enabling this, you agree to be responsible for anything that may happen, and not blame us in any way.</string>
+
 </resources>
